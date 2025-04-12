@@ -51,18 +51,6 @@ To run this application locally, you'll need:
     ```bash 
     pip install streamlit pandas joblib scikit-learn altair plotly
     ```
-
-### Running Locally
-
-   - Clone the repository:
-
-   ```bash 
-   git clone https://github.com/rdxkeerthi/Emotion-Detection.git
-```
-
-```bash 
-cd Emotion-Detection
-```
 ### Install the dependencies:
 
 ```bash
@@ -115,16 +103,9 @@ The app includes basic analytics for monitoring usage:
 ### Future Enhancements
 
 1. **Audio-based Emotion Detection:** Extend the app to process speech/audio input to detect emotions.
-2. **Multilingual Support:** Support for emotion detection in multiple languages.
 3. **Real-time Feedback:** Provide users with immediate feedback on their emotional state based on input.
 4. **Advanced Dashboard:** Build a dashboard for admins to monitor app usage, prediction statistics, and user engagement.
 
 ### License
 
 This project is licensed under the MIT License.
-### Contact
-
-For any queries, feel free to reach out:
-
-- [**Website**](https://rdxkeerthi.web.app)
-- [**LinkedIn**](https://linkedin.com/in/rdxkeerthi)
