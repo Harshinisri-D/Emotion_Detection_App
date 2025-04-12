@@ -1,10 +1,7 @@
 ### Text-based Emotion Detection Web App
 ### 🔗 Live Demo
+You can view the deployed app here: [Emotion Detection App](https://emotiondetectionapp-6q4f2rlpuswvapupb44wbh.streamlit.app/)
 
-Check out the live Emotion Detection App here:  
-👉 [https://emotiondetectionapp-6q4f2rlpuswvapupb44wbh.streamlit.app](https://emotiondetectionapp-6q4f2rlpuswvapupb44wbh.streamlit.app)
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://emotiondetectionapp-6q4f2rlpuswvapupb44wbh.streamlit.app)
 
 This is a web-based application that detects emotions from text input using Natural Language Processing (NLP) and Machine Learning. The app processes the input text and predicts the associated emotion, displaying the result along with the prediction confidence.
 ### Features
