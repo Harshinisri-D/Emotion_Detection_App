@@ -1,9 +1,18 @@
 import sqlite3
 import pytz
 from datetime import datetime
+import os
+
+# Function to get the correct database path based on environment
+def get_db_path():
+    """Check for Streamlit Cloud and return the correct database path."""
+    if 'STREAMLIT_CLOUD' in os.environ:  # Detect if the app is on Streamlit Cloud
+        return '/mnt/data/data.db'  # Path in Streamlit Cloud
+    return './data/data.db'  # Local path for development
 
 # Load Database Packages
-conn = sqlite3.connect('./data/data.db', check_same_thread=False)
+db_path = get_db_path()  # Get the correct path for the database
+conn = sqlite3.connect(db_path, check_same_thread=False)
 c = conn.cursor()
 
 IST = pytz.timezone('Asia/Kolkata')  # Indian Standard Time
